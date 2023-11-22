@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Card sniffer",
+    "description": "Permet de lire les données de la carte dans un fichier texte et les écrit sur la page de paiement",
+    "version": "1.0.1",
+    "author": "tobias wendl",
+    "permissions": ["storage", "activeTab"],
+    "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
+    },
+    "action": {
+      "default_icon": {
+        "16": "img/card16.png",
+        "48": "img/card48.png",
+        "128": "img/card128.png"
+      }
+    }
+  }
+  

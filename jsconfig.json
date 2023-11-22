@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "commonjs",
+      "checkJs": true
+    },
+    "typeAcquisition": {
+      "include": ["chrome"]
+    },
+    "include": [
+      "service-worker.js"
+      // Add other JavaScript files if needed
+    ]
+  }
+  
